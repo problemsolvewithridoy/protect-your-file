@@ -1,7 +1,12 @@
 
 # Protect your file using python
 
-In this project, you will protect your file just write a 3 line of code.
+Protect your PDF file using Python is a project aimed at securing sensitive information contained in PDF files by adding password protection. The program uses the PyPDF2 module to encrypt and password-protect the PDF files. This Python script allows users to enter the password and the path to the PDF file, and then creates a new PDF file with the same name and path, but with password protection.
+
+The program uses the RC4 encryption algorithm, which is a stream cipher encryption algorithm known for its simplicity and speed. The password is first hashed using the MD5 hash function, and then used as the key to encrypt the PDF file.
+
+This project is useful for individuals and organizations that need to secure their confidential PDF files, such as financial reports, legal documents, or personal information. With this Python script, users can easily add password protection to their PDF files and prevent unauthorized access.
+
 let's start...............
 
 To make this project you need to follow this step:-
